@@ -1,0 +1,96 @@
+p {
+    color: rgb(54, 54, 53);
+    text-align: start;
+    text-shadow: 1px 1px 1px #111111;
+    font-size: 30px;
+    padding: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    
+    background-color: rgb(58, 58, 57);
+    min-height: 20px;
+    padding: 20px;
+}
+
+
+footer{
+    
+    clear: both;
+    background-color: rgb(58, 58, 57);
+    height: 60px;      
+    padding: 20px;    /* margen interna  */
+    text-align: center; /* centralizar o texto */
+    text-shadow: 1px 1px 1px #111111;
+    font-size: 12px;
+}
+
+
+*{
+    margin: 0;
+
+}
+
+h1 {
+    color:rgb(223, 134, 17);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    padding: 30px;
+    margin: auto;
+
+}
+
+#principal {
+    clear: both;
+    background-size: 55%; /* Ajusta a img */
+    background-image: url('140918573_2535247796775969_2954916225142992752_n.jpg');
+    min-height: 800px;
+}
+
+#principalCard {
+    clear: both;
+    min-height: 500px;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+}
+
+
+#menu {
+    
+    margin-top: 35px;
+    
+    text-align: center;
+}
+
+#menu a{
+    
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(221, 219, 219);
+    text-shadow: 1px 1px 1px #111111;
+}
+
+#menu a:hover {
+    background-color: rgb(143, 139, 140);
+
+}
+
+.contneir {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.efeito {
+    border-radius: 3500px;
+    background-color: rgba(248, 242, 242, 0.5);  /* efeito na img */
+
+}
